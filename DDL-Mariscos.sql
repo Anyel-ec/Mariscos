@@ -204,3 +204,15 @@ CREATE USER sistemaMariscos2 FOR LOGIN sistemaMariscos2;
 ALTER ROLE RolAplicacion ADD MEMBER sistemaMariscos2;
 
 
+
+--En SQL Server Linux
+-- Crear el usuario sistemaMariscos1
+CREATE LOGIN sistemaMariscos1 WITH PASSWORD = 'AnyelBSC@2002*+';
+CREATE USER sistemaMariscos1 FOR LOGIN sistemaMariscos1;
+ALTER ROLE RolAplicacion ADD MEMBER sistemaMariscos1;
+
+-- Crear el usuario sistemaMariscos2
+CREATE LOGIN sistemaMariscos2 WITH PASSWORD = 'AnyelEC@2002*+';
+CREATE USER sistemaMariscos2 FOR LOGIN sistemaMariscos2;
+ALTER ROLE RolAplicacion ADD MEMBER sistemaMariscos2;
+
